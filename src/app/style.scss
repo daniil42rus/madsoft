@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+.content {
+  width: 1000px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.countdown {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  width: 35px;
+  height: 5px;
+  background-color: gray;
+  &_red {
+    background-color: red;
+  }
+  &_black {
+    background-color: black;
+  }
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+}
